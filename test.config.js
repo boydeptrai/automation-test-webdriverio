@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/selectBy.js"
+        "./src/getText.js"
     ],
     capabilities: [
        {

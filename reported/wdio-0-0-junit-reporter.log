@@ -1,35 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API Learning" timestamp="2023-04-08T10:01:21" time="3.912" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API Learning" timestamp="2023-04-08T14:58:02" time="4.612" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="API Learning "/>
+      <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
-      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/selectBy.js"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/getText.js"/>
     </properties>
-    <testcase classname="chrome.109_0_5414_129.windows.API_Learning_" name="Handle dropdown Menu" time="3.911">
+    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Learn getText API" time="4.611">
       <system-out><![CDATA[
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element - {"using":"css selector","value":"#dropdown"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/url - {"url":"http://the-internet.herokuapp.com/dropdown"}
-RESULT: {"using":"css selector","value":"#dropdown"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element - {"using":"css selector","value":"#dropdown"}
+COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/element - {"using":"css selector","value":"h3"}
+COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/url - {"url":"http://the-internet.herokuapp.com/dropdown"}
+RESULT: {"using":"css selector","value":"h3"}
+COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/element - {"using":"css selector","value":"h3"}
 RESULT: {"url":"http://the-internet.herokuapp.com/dropdown"}
-RESULT: {"using":"css selector","value":"#dropdown"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b9cfad73-228c-4929-a585-c13580bbae36","ELEMENT":"b9cfad73-228c-4929-a585-c13580bbae36"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b9cfad73-228c-4929-a585-c13580bbae36","ELEMENT":"b9cfad73-228c-4929-a585-c13580bbae36"}]}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element - {"using":"css selector","value":"#dropdown"}
-RESULT: {"using":"css selector","value":"#dropdown"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element/b9cfad73-228c-4929-a585-c13580bbae36/element - {"using":"xpath","value":"./option[. = \"Option 1\"]|./option[normalize-space(text()) = \"Option 1\"]|./optgroup/option[. = \"Option 1\"]|./optgroup/option[normalize-space(text()) = \"Option 1\"]"}
-RESULT: {"using":"xpath","value":"./option[. = \"Option 1\"]|./option[normalize-space(text()) = \"Option 1\"]|./optgroup/option[. = \"Option 1\"]|./optgroup/option[normalize-space(text()) = \"Option 1\"]"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element/04fdbce2-c952-450d-9f47-8ab130815640/click - {}
+RESULT: {"using":"css selector","value":"h3"}
+COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"6bc89b3f-3729-44ea-af67-8d7123d81dbd","ELEMENT":"6bc89b3f-3729-44ea-af67-8d7123d81dbd"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"6bc89b3f-3729-44ea-af67-8d7123d81dbd","ELEMENT":"6bc89b3f-3729-44ea-af67-8d7123d81dbd"}]}
+COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/element - {"using":"css selector","value":"h3"}
+RESULT: {"using":"css selector","value":"h3"}
+COMMAND: GET /session/76f39f0bcc17150443a50fc0f5a7b835/element/6bc89b3f-3729-44ea-af67-8d7123d81dbd/text - {}
 RESULT: {}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element - {"using":"css selector","value":"#dropdown"}
-RESULT: {"using":"css selector","value":"#dropdown"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element/b9cfad73-228c-4929-a585-c13580bbae36/element - {"using":"xpath","value":"./option[normalize-space(@value) = \"2\"]|./optgroup/option[normalize-space(@value) = \"2\"]"}
-RESULT: {"using":"xpath","value":"./option[normalize-space(@value) = \"2\"]|./optgroup/option[normalize-space(@value) = \"2\"]"}
-COMMAND: POST /session/1a465bd9517f46dfd95507d1d44e906e/element/d2858077-1810-438c-8bb9-e1f5b9001fac/click - {}
-RESULT: {}
-COMMAND: DELETE /session/1a465bd9517f46dfd95507d1d44e906e - {}
+COMMAND: DELETE /session/76f39f0bcc17150443a50fc0f5a7b835 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
