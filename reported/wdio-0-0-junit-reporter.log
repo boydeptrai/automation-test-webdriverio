@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Learning API" timestamp="2023-04-08T08:51:17" time="3.492" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API Learning" timestamp="2023-04-08T09:23:42" time="9.008" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Learning API"/>
+      <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
-      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/waitForDisplayed.js"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/click.js"/>
     </properties>
-    <testcase classname="chrome.109_0_5414_129.windows.Learning_API" name="waitForDisplayed" time="3.49">
+    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Click on Link Text" time="9.007">
       <system-out><![CDATA[
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element - {"using":"css selector","value":"#username"}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/url - {"url":"http://the-internet.herokuapp.com/login"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element - {"using":"css selector","value":"#username"}
-RESULT: {"url":"http://the-internet.herokuapp.com/login"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"4c130ef8-59d6-4e9c-b55c-5c44834018e6","ELEMENT":"4c130ef8-59d6-4e9c-b55c-5c44834018e6"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"4c130ef8-59d6-4e9c-b55c-5c44834018e6","ELEMENT":"4c130ef8-59d6-4e9c-b55c-5c44834018e6"}]}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element/4c130ef8-59d6-4e9c-b55c-5c44834018e6/clear - {}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"link text","value":"Form Authentication"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/url - {"url":"http://the-internet.herokuapp.com/"}
+RESULT: {"using":"link text","value":"Form Authentication"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"link text","value":"Form Authentication"}
+RESULT: {"url":"http://the-internet.herokuapp.com/"}
+RESULT: {"using":"link text","value":"Form Authentication"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0f533a71-5c4e-4a37-a543-72c969b46378","ELEMENT":"0f533a71-5c4e-4a37-a543-72c969b46378"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0f533a71-5c4e-4a37-a543-72c969b46378","ELEMENT":"0f533a71-5c4e-4a37-a543-72c969b46378"}]}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"link text","value":"Form Authentication"}
+RESULT: {"using":"link text","value":"Form Authentication"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element/0f533a71-5c4e-4a37-a543-72c969b46378/click - {}
 RESULT: {}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element/4c130ef8-59d6-4e9c-b55c-5c44834018e6/value - {"text":"Tuan Tran"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c5952160-43bb-4a6c-bf80-6c514cd5bb50","ELEMENT":"c5952160-43bb-4a6c-bf80-6c514cd5bb50"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c5952160-43bb-4a6c-bf80-6c514cd5bb50","ELEMENT":"c5952160-43bb-4a6c-bf80-6c514cd5bb50"}]}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element/c5952160-43bb-4a6c-bf80-6c514cd5bb50/clear - {}
+RESULT: {}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element/c5952160-43bb-4a6c-bf80-6c514cd5bb50/value - {"text":"Tuan Tran"}
 RESULT: {"text":"Tuan Tran"}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element - {"using":"css selector","value":"#password"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"css selector","value":"#password"}
 RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element/6ba768a3-2ebe-4e1b-8c69-977d09568774/clear - {}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element/27ac5194-a20e-4acb-b115-af1a2177c2df/clear - {}
 RESULT: {}
-COMMAND: POST /session/8e89b9ba88082dbfcb3e22a3383da636/element/6ba768a3-2ebe-4e1b-8c69-977d09568774/value - {"text":"123456"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element/27ac5194-a20e-4acb-b115-af1a2177c2df/value - {"text":"123456"}
 RESULT: {"text":"123456"}
-COMMAND: DELETE /session/8e89b9ba88082dbfcb3e22a3383da636 - {}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element - {"using":"css selector","value":"[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"[type=\"submit\"]"}
+COMMAND: POST /session/9ad39c7acc69853bb9e348383f03804e/element/b77e644a-16aa-40a5-a9ed-2840e11470a9/click - {}
+RESULT: {}
+COMMAND: DELETE /session/9ad39c7acc69853bb9e348383f03804e - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

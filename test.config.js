@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/waitForDisplayed.js"
+        "./src/click.js"
     ],
     capabilities: [
        {
