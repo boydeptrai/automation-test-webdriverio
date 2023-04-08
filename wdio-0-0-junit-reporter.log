@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Learning API" timestamp="2023-04-08T07:49:59" time="0.219" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Learning API"/>
+      <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/waitForDisplayed.js"/>
+    </properties>
+    <testcase classname="chrome.109_0_5414_129.windows.Learning_API" name="waitForDisplayed" time="0.01">
+      <system-out><![CDATA[
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/element - {"using":"css selector","value":"#username"}
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/element - {"using":"css selector","value":"#username"}
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/element - {"using":"css selector","value":"#password"}
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/url - {"url":"http://the-internet.herokuapp.com/login"}
+COMMAND: DELETE /session/44dd491a359c76967bbe1cabbce9fc40 - {}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/elements - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/44dd491a359c76967bbe1cabbce9fc40/elements - {"using":"css selector","value":"#password"}
+RESULT: {"url":"http://the-internet.herokuapp.com/login"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/setValue.js"
+        "./src/waitForDisplayed.js"
     ],
     capabilities: [
        {
@@ -18,10 +18,9 @@ exports.config = {
         ui: "bdd",
         timeout: 600000                                                                                                                                                                                                                     
     },
-    // Reporter config
     reporters: [
         ['junit',{
-            outputDir: './'
+            outputDir: './reported'
         }]
     ]
 }
