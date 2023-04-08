@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/click.js"
+        "./src/selectBy.js"
     ],
     capabilities: [
        {
