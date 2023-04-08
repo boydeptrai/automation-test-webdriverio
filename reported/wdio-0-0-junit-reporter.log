@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API Learning" timestamp="2023-04-08T14:58:02" time="4.612" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API Learning" timestamp="2023-04-08T16:06:34" time="3.495" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
-      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/getText.js"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/getUrlAndTitle.js"/>
     </properties>
-    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Learn getText API" time="4.611">
+    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="getUrl and getTitle API" time="3.494">
       <system-out><![CDATA[
-COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/element - {"using":"css selector","value":"h3"}
-COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/url - {"url":"http://the-internet.herokuapp.com/dropdown"}
-RESULT: {"using":"css selector","value":"h3"}
-COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/element - {"using":"css selector","value":"h3"}
-RESULT: {"url":"http://the-internet.herokuapp.com/dropdown"}
-RESULT: {"using":"css selector","value":"h3"}
-COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"6bc89b3f-3729-44ea-af67-8d7123d81dbd","ELEMENT":"6bc89b3f-3729-44ea-af67-8d7123d81dbd"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"6bc89b3f-3729-44ea-af67-8d7123d81dbd","ELEMENT":"6bc89b3f-3729-44ea-af67-8d7123d81dbd"}]}
-COMMAND: POST /session/76f39f0bcc17150443a50fc0f5a7b835/element - {"using":"css selector","value":"h3"}
-RESULT: {"using":"css selector","value":"h3"}
-COMMAND: GET /session/76f39f0bcc17150443a50fc0f5a7b835/element/6bc89b3f-3729-44ea-af67-8d7123d81dbd/text - {}
+COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/element - {"using":"css selector","value":"h1"}
+COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/url - {"url":"http://the-internet.herokuapp.com/"}
+RESULT: {"using":"css selector","value":"h1"}
+COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/element - {"using":"css selector","value":"h1"}
+RESULT: {"url":"http://the-internet.herokuapp.com/"}
+RESULT: {"using":"css selector","value":"h1"}
+COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9e0e7fc9-c02d-40b9-9235-577459f28cef","ELEMENT":"9e0e7fc9-c02d-40b9-9235-577459f28cef"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9e0e7fc9-c02d-40b9-9235-577459f28cef","ELEMENT":"9e0e7fc9-c02d-40b9-9235-577459f28cef"}]}
+COMMAND: GET /session/bf75c502be1664f48f728a4b5cecd951/url - {}
 RESULT: {}
-COMMAND: DELETE /session/76f39f0bcc17150443a50fc0f5a7b835 - {}
+COMMAND: GET /session/bf75c502be1664f48f728a4b5cecd951/title - {}
+RESULT: {}
+COMMAND: DELETE /session/bf75c502be1664f48f728a4b5cecd951 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

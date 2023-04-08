@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/getText.js"
+        "./src/getUrlAndTitle.js"
     ],
     capabilities: [
        {
