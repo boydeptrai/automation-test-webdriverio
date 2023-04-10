@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/getUrlAndTitle.js"
+        "./src/alertHandle.js"
     ],
     capabilities: [
        {

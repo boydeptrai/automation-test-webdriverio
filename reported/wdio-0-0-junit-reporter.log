@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API Learning" timestamp="2023-04-08T16:06:34" time="3.495" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API Learning" timestamp="2023-04-10T08:30:53" time="6.4" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
-      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/getUrlAndTitle.js"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/alertHandle.js"/>
     </properties>
-    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="getUrl and getTitle API" time="3.494">
+    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Alert Handle" time="6.397">
       <system-out><![CDATA[
-COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/element - {"using":"css selector","value":"h1"}
-COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/url - {"url":"http://the-internet.herokuapp.com/"}
-RESULT: {"using":"css selector","value":"h1"}
-COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/element - {"using":"css selector","value":"h1"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element - {"using":"link text","value":"JavaScript Alerts"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/url - {"url":"http://the-internet.herokuapp.com/"}
+RESULT: {"using":"link text","value":"JavaScript Alerts"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element - {"using":"link text","value":"JavaScript Alerts"}
 RESULT: {"url":"http://the-internet.herokuapp.com/"}
-RESULT: {"using":"css selector","value":"h1"}
-COMMAND: POST /session/bf75c502be1664f48f728a4b5cecd951/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9e0e7fc9-c02d-40b9-9235-577459f28cef","ELEMENT":"9e0e7fc9-c02d-40b9-9235-577459f28cef"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9e0e7fc9-c02d-40b9-9235-577459f28cef","ELEMENT":"9e0e7fc9-c02d-40b9-9235-577459f28cef"}]}
-COMMAND: GET /session/bf75c502be1664f48f728a4b5cecd951/url - {}
+RESULT: {"using":"link text","value":"JavaScript Alerts"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a57e80ad-ac85-4dc7-aebd-01b392604cf9","ELEMENT":"a57e80ad-ac85-4dc7-aebd-01b392604cf9"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a57e80ad-ac85-4dc7-aebd-01b392604cf9","ELEMENT":"a57e80ad-ac85-4dc7-aebd-01b392604cf9"}]}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element - {"using":"link text","value":"JavaScript Alerts"}
+RESULT: {"using":"link text","value":"JavaScript Alerts"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element/a57e80ad-ac85-4dc7-aebd-01b392604cf9/click - {}
 RESULT: {}
-COMMAND: GET /session/bf75c502be1664f48f728a4b5cecd951/title - {}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element - {"using":"css selector","value":"[onclick=\"jsConfirm()\"]"}
+RESULT: {"using":"css selector","value":"[onclick=\"jsConfirm()\"]"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1409e423-4642-4f9a-a75d-04c67914bf08","ELEMENT":"1409e423-4642-4f9a-a75d-04c67914bf08"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1409e423-4642-4f9a-a75d-04c67914bf08","ELEMENT":"1409e423-4642-4f9a-a75d-04c67914bf08"}]}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element - {"using":"css selector","value":"[onclick=\"jsConfirm()\"]"}
+RESULT: {"using":"css selector","value":"[onclick=\"jsConfirm()\"]"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element/1409e423-4642-4f9a-a75d-04c67914bf08/click - {}
 RESULT: {}
-COMMAND: DELETE /session/bf75c502be1664f48f728a4b5cecd951 - {}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/alert/accept - {}
+COMMAND: GET /session/02e39f7e510b8e0671abf8e3306ce022/alert/text - {}
+RESULT: {}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element - {"using":"css selector","value":"[onclick=\"jsConfirm()\"]"}
+RESULT: {"using":"css selector","value":"[onclick=\"jsConfirm()\"]"}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/element/1409e423-4642-4f9a-a75d-04c67914bf08/click - {}
+RESULT: {}
+COMMAND: POST /session/02e39f7e510b8e0671abf8e3306ce022/alert/dismiss - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/02e39f7e510b8e0671abf8e3306ce022 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
