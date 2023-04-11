@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/alertHandle.js"
+        "./src/uploadFile.js"
     ],
     capabilities: [
        {
