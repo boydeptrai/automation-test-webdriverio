@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/multipleTestCases.js"
+        "./src/cssHandle.js"
     ],
     capabilities: [
        {
