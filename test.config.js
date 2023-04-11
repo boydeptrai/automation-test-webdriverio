@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/uploadFile.js"
+        "./src/handleMultipleTabs.js"
     ],
     capabilities: [
        {
