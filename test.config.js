@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/cssHandle.js"
+        "./src/getAttribute.js"
     ],
     capabilities: [
        {

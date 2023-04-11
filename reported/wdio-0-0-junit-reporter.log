@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API Learning" timestamp="2023-04-11T14:41:15" time="3.199" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API Learning" timestamp="2023-04-11T15:28:00" time="6.948" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
-      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/cssHandle.js"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/getAttribute.js"/>
     </properties>
-    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Get color CSS value" time="3.197">
+    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Get Attribute for username text box" time="6.942">
       <system-out><![CDATA[
-COMMAND: POST /session/03c8d37d5d6b040d6febb0fe1ccdb06f/element - {"using":"css selector","value":"h1"}
-COMMAND: POST /session/03c8d37d5d6b040d6febb0fe1ccdb06f/url - {"url":"http://the-internet.herokuapp.com/"}
-RESULT: {"using":"css selector","value":"h1"}
-COMMAND: POST /session/03c8d37d5d6b040d6febb0fe1ccdb06f/element - {"using":"css selector","value":"h1"}
-RESULT: {"url":"http://the-internet.herokuapp.com/"}
-RESULT: {"using":"css selector","value":"h1"}
-COMMAND: POST /session/03c8d37d5d6b040d6febb0fe1ccdb06f/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"e311aa75-1bfc-454d-b0b8-b54bfa41e53b","ELEMENT":"e311aa75-1bfc-454d-b0b8-b54bfa41e53b"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"e311aa75-1bfc-454d-b0b8-b54bfa41e53b","ELEMENT":"e311aa75-1bfc-454d-b0b8-b54bfa41e53b"}]}
-COMMAND: POST /session/03c8d37d5d6b040d6febb0fe1ccdb06f/element - {"using":"css selector","value":"h1"}
-RESULT: {"using":"css selector","value":"h1"}
-COMMAND: GET /session/03c8d37d5d6b040d6febb0fe1ccdb06f/element/e311aa75-1bfc-454d-b0b8-b54bfa41e53b/css/color - {}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/url - {"url":"http://the-internet.herokuapp.com/login"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
+RESULT: {"url":"http://the-internet.herokuapp.com/login"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"fb84d932-3778-4260-827c-b16e10e8a111","ELEMENT":"fb84d932-3778-4260-827c-b16e10e8a111"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"fb84d932-3778-4260-827c-b16e10e8a111","ELEMENT":"fb84d932-3778-4260-827c-b16e10e8a111"}]}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: GET /session/63fc5bba0cb9d82752fa020bba0e8473/element/fb84d932-3778-4260-827c-b16e10e8a111/attribute/type - {}
 RESULT: {}
-COMMAND: DELETE /session/03c8d37d5d6b040d6febb0fe1ccdb06f - {}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: GET /session/63fc5bba0cb9d82752fa020bba0e8473/element/fb84d932-3778-4260-827c-b16e10e8a111/attribute/name - {}
+RESULT: {}
+COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: GET /session/63fc5bba0cb9d82752fa020bba0e8473/element/fb84d932-3778-4260-827c-b16e10e8a111/attribute/id - {}
+RESULT: {}
+COMMAND: DELETE /session/63fc5bba0cb9d82752fa020bba0e8473 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
