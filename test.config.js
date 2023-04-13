@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/getAttribute.js"
+        "./src/saveScreenshot.js"
     ],
     capabilities: [
        {

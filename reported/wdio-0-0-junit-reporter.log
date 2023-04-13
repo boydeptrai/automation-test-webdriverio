@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="API Learning" timestamp="2023-04-11T15:28:00" time="6.948" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="API Learning" timestamp="2023-04-13T15:45:38" time="2.936" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="API Learning"/>
       <property name="capabilities" value="chrome.109_0_5414_129.windows"/>
-      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/getAttribute.js"/>
+      <property name="file" value="file:///D:/testing/automation-test-webdriverio/src/saveScreenshot.js"/>
     </properties>
-    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Get Attribute for username text box" time="6.942">
+    <testcase classname="chrome.109_0_5414_129.windows.API_Learning" name="Save Screenshot" time="2.934">
       <system-out><![CDATA[
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/url - {"url":"http://the-internet.herokuapp.com/login"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
-RESULT: {"url":"http://the-internet.herokuapp.com/login"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"fb84d932-3778-4260-827c-b16e10e8a111","ELEMENT":"fb84d932-3778-4260-827c-b16e10e8a111"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"fb84d932-3778-4260-827c-b16e10e8a111","ELEMENT":"fb84d932-3778-4260-827c-b16e10e8a111"}]}
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: GET /session/63fc5bba0cb9d82752fa020bba0e8473/element/fb84d932-3778-4260-827c-b16e10e8a111/attribute/type - {}
+COMMAND: POST /session/4e919fe7a73189af5b25d92d4ab99631/url - {"url":"https://webdriver.io/docs/api/browser/saveScreenshot.html"}
+COMMAND: GET /session/4e919fe7a73189af5b25d92d4ab99631/screenshot - {}
+RESULT: {"url":"https://webdriver.io/docs/api/browser/saveScreenshot.html"}
 RESULT: {}
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: GET /session/63fc5bba0cb9d82752fa020bba0e8473/element/fb84d932-3778-4260-827c-b16e10e8a111/attribute/name - {}
-RESULT: {}
-COMMAND: POST /session/63fc5bba0cb9d82752fa020bba0e8473/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: GET /session/63fc5bba0cb9d82752fa020bba0e8473/element/fb84d932-3778-4260-827c-b16e10e8a111/attribute/id - {}
-RESULT: {}
-COMMAND: DELETE /session/63fc5bba0cb9d82752fa020bba0e8473 - {}
+COMMAND: DELETE /session/4e919fe7a73189af5b25d92d4ab99631 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
