@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/saveScreenshot.js"
+        "./src/waitForDisappeared.js"
     ],
     capabilities: [
        {
