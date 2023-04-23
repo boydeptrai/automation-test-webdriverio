@@ -1,6 +1,6 @@
 exports.config = {
     specs: [
-        "./src/waitForDisappeared.js"
+        "src/test-scripts/Login_Type_1.js"
     ],
     capabilities: [
        {
